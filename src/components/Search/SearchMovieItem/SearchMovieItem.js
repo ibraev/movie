@@ -18,7 +18,7 @@ const SearchMovieItem = ({movie, genres}) => {
             </h2>
             <ul className="movie-genres">
                 <b>Genres:</b>
-                {genresArray && genresArray.map((genres) => {
+                {genresArray && genresArray && genresArray.map((genres) => {
                     return (
                         <li>
                             <i>{genres.name}</i>
